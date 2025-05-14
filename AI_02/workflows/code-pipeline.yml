@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: WorkflowTemplate
+metadata:
+  name: code-pipeline-i758675
+  annotations:
+    scenarios.ai.sap.com/description: "Introduction to SAP AI Core"
+    scenarios.ai.sap.com/name: "i758675"
+    executables.ai.sap.com/description: "Trains model on median house prices"
+    executables.ai.sap.com/name: "House Price (Sklearn Example)"
+  labels:
+    scenarios.ai.sap.com/id: "i758675"
+    ai.sap.com/version: "1.0"
+spec:
+  imagePullSecrets:
+    - name: i758675 # your docker registry secret
+  entrypoint: mypipeline
+  templates:
+  - name: mypipeline
+    steps:
+    - - name: mypredictor
+        template: mycodeblock1
+
+  - name: mycodeblock1
+    container:
+      image: docker.io/jheisonurzola/house-price:01 # Your docker image name
+      command: ["/bin/sh", "-c"]
+      args:
+        - "python /app/src/main.py"
