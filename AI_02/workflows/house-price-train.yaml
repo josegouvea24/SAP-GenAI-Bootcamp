@@ -41,7 +41,8 @@ spec:
             none:   # specify not to compress while uploading to cloud
               {}          
     container:
-      image: docker.io/josegouvea1999/house-price:03 # Your docker image name
+      image: docker.io/josegouvea1999/house-price:03
+      # Your docker image name
       command: ["/bin/sh", "-c"]
       env:
         - name: DT_MAX_DEPTH # name of the environment variable inside Docker container
