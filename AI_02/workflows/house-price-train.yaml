@@ -14,7 +14,7 @@ metadata:
     ai.sap.com/version: "3.0"
 spec:
   imagePullSecrets:
-    - name: i758675 # your docker registry secret
+    - name: i076558 # your docker registry secret
   entrypoint: mypipeline
   arguments:
     parameters: # placeholder for string like inputs
