@@ -28,7 +28,7 @@ config = OrchestrationConfig(
 
 from gen_ai_hub.orchestration.service import OrchestrationService
 
-orchestration_service = OrchestrationService(base_url=YOUR_API_URL, config=config)
+orchestration_service = OrchestrationService(api_url=YOUR_API_URL, config=config)
 result = orchestration_service.run(template_values=[
     TemplateValue(name="text", value="The Orchestration Service is working!")
 ])
