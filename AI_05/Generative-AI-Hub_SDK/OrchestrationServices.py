@@ -1,4 +1,8 @@
+
 YOUR_API_URL = "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com/v2/inference/deployments/d4f47cb57c6f627a"
+
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
 
 from gen_ai_hub.orchestration.models.message import SystemMessage, UserMessage
 from gen_ai_hub.orchestration.models.template import Template, TemplateValue
