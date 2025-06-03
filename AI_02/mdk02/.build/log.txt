@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/I758675/AI_02/.build/AI_02/.build/uploadBundle.zip

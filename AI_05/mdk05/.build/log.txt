@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/I758675/AI_05/mdk05/.build/mdk05/.build/uploadBundle.zip

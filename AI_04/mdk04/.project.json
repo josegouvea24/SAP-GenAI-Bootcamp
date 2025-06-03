@@ -1,0 +1,24 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.us10-002.hana.ondemand.com",
+		"Organization": "5a0e5f2f-0abf-4079-b0e2-1737ef2a75fd",
+		"Space": "5fd83700-c20e-422a-b97d-122b2ccdcb0f"
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/5a0e5f2f-0abf-4079-b0e2-1737ef2a75fd/space/5fd83700-c20e-422a-b97d-122b2ccdcb0f",
+		"AppId": "I758675",
+		"Destination": [],
+		"Type": "standard"
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": ""
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}
