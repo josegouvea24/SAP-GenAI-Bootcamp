@@ -1,0 +1,11 @@
+{
+	"DestinationName": "I758675",
+	"OfflineEnabled": false,
+	"LanguageURLParam": "",
+	"OnlineOptions": {},
+	"OfflineOptions": {},
+	"PathSuffix": "/inference/deployments/d781c23f6d6613b2",
+	"SourceType": "Mobile",
+	"ServiceUrl": "",
+	"RestService": true
+}

@@ -1,0 +1,80 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true
+					},
+					"AnalyticCards": [
+						{
+							"DataSeries": {
+								"Data": [
+									[
+										"{averageCategory}",
+										"{averageSentiment}",
+										"{averageUrgency}"
+									]
+								],
+								"CategoryTitles": [
+									"Category",
+									"Sentiment",
+									"Urgency"
+								],
+								"CategoryLabelVisible": true,
+								"NumericLabelVisible": false
+							},
+							"_Type": "Card.Type.Chart",
+							"_Name": "CardTypeChart0",
+							"ChartType": "Column",
+							"Title": "Model Evaluation",
+							"Subtitle": "{model}",
+							"IsTrendUpward": true,
+							"SeriesTitle": [
+								"Percentage of Correct Predictions"
+							],
+							"SeriesColor": [
+								"#5899DA"
+							]
+						}
+					],
+					"_Type": "Section.Type.AnalyticCardCollection",
+					"_Name": "SectionAnalyticCardCollection1",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "User Menu",
+				"Icon": "sap-icon://customer",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/mdk06/Actions/Application/UserMenuPopover.action"
+			}
+		],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": ".:Detail",
+		"PrefersLargeCaption": true
+	}
+}

@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/I758675/SAP-GenAI-Bootcamp/AI_06/mdk06/.build/mdk06/.build/uploadBundle.zip

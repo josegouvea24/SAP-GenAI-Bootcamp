@@ -1,0 +1,20 @@
+{
+	"_Type": "Action.Type.RestService.SendRequest",
+	"OnFailure": {
+		"Name": "/mdk06/Actions/GenericToastMessage.action",
+		"Properties": {
+			"Message": "Error"
+		}
+	},
+	"Target": {
+		"Service": "/mdk06/Services/I758675.service",
+		"Path": "/completion",
+		"RequestProperties": {
+			"Method": "POST",
+			"Headers": {
+				"AI-Resource-Group": "default"
+			},
+			"Body": "{#Application/#ClientData/body}"
+		}
+	}
+}
