@@ -23,6 +23,8 @@ from ai_api_client_sdk.models.status import Status
 import time
 from IPython.display import clear_output
 
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
 
 def spinner(check_callback: Callable, timeout: int = 300, check_every_n_seconds: int = 10):
     start = time.time()
