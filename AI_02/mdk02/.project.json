@@ -1,0 +1,27 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.us10-002.hana.ondemand.com",
+		"Organization": "5a0e5f2f-0abf-4079-b0e2-1737ef2a75fd",
+		"Space": "5fd83700-c20e-422a-b97d-122b2ccdcb0f"
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/5a0e5f2f-0abf-4079-b0e2-1737ef2a75fd/space/5fd83700-c20e-422a-b97d-122b2ccdcb0f",
+		"AppId": "I758675",
+		"Destination": [
+			"I758675"
+		],
+		"Type": "standard"
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true,
+		"Platform": "iOS & Android"
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=I758675&ClientId=3525948b-62a1-4a8d-bcb0-0c256d86eea5&ServerUrl=https://i751878-7unmyyvx-dev-i758675.cfapps.us10-002.hana.ondemand.com&SapCloudPlatformEndpoint=https://i751878-7unmyyvx-dev-i758675.cfapps.us10-002.hana.ondemand.com&AuthorizationEndpointUrl=https://i751878-7unmyyvx-dev-i758675.cfapps.us10-002.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://i751878-7unmyyvx-dev-i758675.cfapps.us10-002.hana.ondemand.com&TokenUrl=https://i751878-7unmyyvx-dev-i758675.cfapps.us10-002.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	}
+}

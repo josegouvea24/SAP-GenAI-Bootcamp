@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "NavToDetail"
+	},
+	"PageToOpen": "/mdk05/Pages/Detail.page"
+}

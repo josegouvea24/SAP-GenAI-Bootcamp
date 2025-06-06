@@ -1,0 +1,11 @@
+{
+	"DestinationName": "I758675",
+	"OfflineEnabled": false,
+	"LanguageURLParam": "",
+	"OnlineOptions": {},
+	"OfflineOptions": {},
+	"PathSuffix": "/lm/executions",
+	"SourceType": "Mobile",
+	"ServiceUrl": "",
+	"RestService": true
+}

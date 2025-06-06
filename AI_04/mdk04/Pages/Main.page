@@ -1,0 +1,96 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ObjectCollection",
+					"Target": {
+						"Service": "/mdk04/Services/I758675.service",
+						"Path": "/e75c9dbe0f55e535/logs",
+						"OutputPath": "/data/result",
+						"RequestProperties": {
+							"Method": "GET",
+							"FetchCSRF": false
+						}
+					},
+					"_Name": "SectionObjectCollection0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"ObjectCell": {
+						"Title": "{msg}",
+						"Description": "Description",
+						"DisplayDescriptionInMobile": true,
+						"AccessoryType": "None",
+						"PreserveIconStackSpacing": false,
+						"ProgressIndicator": "InProgress",
+						"ContextMenu": {
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true,
+							"ImageHasBorder": false
+						},
+						"AvatarGrid": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true
+						},
+						"_Type": "ObjectCollection.Type.ObjectCell"
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "User Menu",
+				"Icon": "sap-icon://customer",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/mdk04/Actions/Application/UserMenuPopover.action"
+			}
+		],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Main",
+		"PrefersLargeCaption": true
+	}
+}
